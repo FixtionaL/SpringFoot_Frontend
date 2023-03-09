@@ -1,0 +1,281 @@
+/* App.css */
+.App {
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: lighter;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+.active {
+  font-weight: bold;
+}
+
+/* Home.css */
+.Home {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.Home h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.Home p {
+  font-size: 18px;
+}
+
+/* Players.css */
+.Players {
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.Players table {
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+.Players th,
+.Players td {
+  padding: 10px;
+  border: 2px solid black;
+}
+
+.Players th {
+  background-color: #0d0c0c;
+  color: white;
+}
+
+.Players input[type='text'],
+.Players select {
+  padding: 5px;
+  width: 200px;
+  margin-right: 10px;
+}
+
+.Players button {
+  padding: 5px 10px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-family: 'Trebuchet MS';
+  font-weight: lighter;
+  font-size: large;
+  background-color: lightgrey;
+  border-style: solid;
+  border-color: black;
+  box-shadow: 1px 1px 1px 1px rgba(78, 75, 75, 0.5);
+  border-radius: 0.99em;
+  transition:transform 0.3s;
+}
+
+.Players button:hover {
+  background-color: rgb(241, 107, 107);
+  box-shadow: 1px 1px 1px 1px rgba(157, 152, 152, 0.5);
+  transform: scale(0.95);
+}
+
+.transfers-container {
+  margin: 100px auto;
+  width: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 20px 0;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #323432;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #726f6f;
+}
+
+/* Players.css */
+.players {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.players div {
+  border: 1px solid gray;
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+}
+
+.players p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.players p:nth-child(odd) {
+  color: gray;
+}
+
+.add-player-form {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Trebuchet MS';
+  font-weight: lighter;
+  text-align: center;
+  text-decoration: none;
+  font-size: large;
+  /* margin-left: 30%;
+  margin-right: 30%; */
+}
+
+.add-player-form label {
+  font-size: 20px;
+}
+
+.add-player-form input {
+  transition: transform 0.3s;
+  padding-top: 5px; 
+  padding-bottom: 10px;
+  color:rgb(5, 5, 5);
+  border-radius: 5px;
+  border-color: whitesmoke;
+  margin-left:35%;
+  font-size: large;
+  width: 30%;
+}
+.add-player-form input:hover {
+  transform: scale(1.2);
+  background-color: #595757;
+  color:whitesmoke;
+}
+
+.add-player-form button {
+  font-family: 'Trebuchet MS';
+  font-weight: lighter;
+  font-size: large;
+  background-color: lightgrey;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 650px;
+  margin-right: 650px;
+  border-style: solid;
+  border-color: black;
+  /* box-shadow: 1px 1px 1px 1px rgba(78, 75, 75, 0.5); */
+  border-radius: 0.99em;
+  transition:transform 0.3s;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-top: 15px;
+}
+.add-player-form button:hover {
+  background-color: grey;
+  /* box-shadow: 1px 1px 1px 1px rgba(157, 152, 152, 0.5); */
+  transform: scale(0.95);
+}
+.head {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: lighter;
+  font-size:35px;
+  transition: transform 0.3s;
+}
+.head:hover {
+  color: grey;
+  background-color: transparent;
+  transform: scale(1.1);
+}
+body {
+  background-color: lightgray;
+}
+.update {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Trebuchet MS';
+  font-weight: lighter;
+  text-align: center;
+  text-decoration: none;
+  font-size: large;
+  /* margin-left: 30%;
+  margin-right: 30%; */
+}
+
+.update label {
+  font-size: 20px;
+}
+
+.update input {
+  transition: transform 0.3s;
+  padding-top: 5px; 
+  padding-bottom: 10px;
+  color:rgb(5, 5, 5);
+  border-radius: 5px;
+  border-color: whitesmoke;
+  margin-left:35%;
+  font-size: large;
+  width: 30%;
+}
+.update input:hover {
+  transform: scale(1.2);
+  background-color: #595757;
+  color:whitesmoke;
+}
+
+.update button {
+  font-family: 'Trebuchet MS';
+  font-weight: lighter;
+  font-size: large;
+  background-color: lightgrey;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 650px;
+  margin-right: 650px;
+  border-style: solid;
+  border-color: black;
+  /* box-shadow: 1px 1px 1px 1px rgba(78, 75, 75, 0.5); */
+  border-radius: 0.99em;
+  transition:transform 0.3s;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-top: 15px;
+}
+.update button:hover {
+  background-color: grey;
+  /* box-shadow: 1px 1px 1px 1px rgba(157, 152, 152, 0.5); */
+  transform: scale(0.95);
+}
